@@ -1,0 +1,3 @@
+((tcp.flags==0x12 and tcp.seq == 0 and tcp.ack == 1) or (tcp.flags == 0x002 and tcp.seq == 0 and tcp.ack == 0)) && tcp
+((tcp.flags==0x12 and tcp.seq == 0 and tcp.ack == 1) or (tcp.flags == 0x010 and tcp.seq == 1 and tcp.ack == 1)) && tcp
+((tcp.flags == 0x002 and tcp.seq == 0 and tcp.ack == 0) or (tcp.flags == 0x010 and tcp.seq == 1 and tcp.ack == 1)) && tcp
